@@ -9,18 +9,30 @@ let booleano2= false;
 const PI = 3.14;
 
 // 4.- Crear variable tipo const de nombre TAU declarada con valor 2 veces PI
+const TAU = 2*PI;
 
 // 5.- Crear variable booleanoAnd cuyo valor sea la comparación booleana booleano1 and booleano2
+const booleanoAnd = booleano1 && booleano2;
 
 //  6.- Crear variable booleanoNot cuyo valor sea la compracación booleana no booleano1
+const booleanoNot = !booleano1
 
 //  7.- Crear variable booleanoMix0 cuyo valor sea la compración booleana (booleano1 or booleano2) and (booleano1 or (not booleano1 and not booleano2)
+const booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2))
 
 //  8.- Crear variable incrementarDesp con valor 2 y asigna su valor con postincremento a resultadoDesp
+let incrementarDesp = 2;
+let resultadoDesp = incrementarDesp++;
 
 //  9.- Crear variable incrementarAntes con valor 2 y asigna su valor con preincremento a resultadoAntes
+let incrementarAntes = 2;
+let resultadoAntes = ++incrementarAntes;
 
 //  10.- Crear variable contarHasta10_2 con valor 0 e incrementar su valor con un bucle for hasta que se verifique que contarHasta10_2 === 10
+let contarHasta10_2 = 0
+for (i = 0; i < 10; i++){
+    contarHasta10_2 += 1
+} console.log(contarHasta10_2)
 
 //  11.- Crear las variables postI y postJ con valor 0 a continuación cree un bucle que itere 11 veces. En cada iteración se deberá sumar al valor de postI el valor de postJ++
 
